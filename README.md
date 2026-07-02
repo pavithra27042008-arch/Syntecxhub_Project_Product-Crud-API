@@ -29,6 +29,7 @@ Product-CRUD-API/
 └── README.md                 # Project documentation
 ```
 
+
  🚀 Features
 
 - Create Product
@@ -42,6 +43,7 @@ Product-CRUD-API/
 - Error Handling
 - RESTful API Design
 
+
  🛠 Technologies Used
 
 - Node.js
@@ -49,6 +51,7 @@ Product-CRUD-API/
 - MongoDB
 - Mongoose
 - dotenv
+
 
  📦 Installation
 
@@ -70,6 +73,7 @@ Install dependencies:
 npm install
 ```
 
+
 ⚙️ Environment Variables
 
 Create a `.env` file in the project root and add:
@@ -78,6 +82,7 @@ Create a `.env` file in the project root and add:
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/productdb
 ```
+
 
 ▶️ Run the Project
 
@@ -99,6 +104,7 @@ Server URL:
 http://localhost:5000
 ```
 
+
 📌 API Endpoints
 
 | Method | Endpoint | Description |
@@ -108,6 +114,7 @@ http://localhost:5000
 | POST | /api/products | Create a new product |
 | PUT | /api/products/:id | Update product |
 | DELETE | /api/products/:id | Delete product |
+
 
  📄 Sample Product JSON
 
@@ -119,6 +126,7 @@ http://localhost:5000
   "category": "Electronics"
 }
 ```
+
 
  👩‍💻 Author
 
